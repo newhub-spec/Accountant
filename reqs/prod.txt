@@ -16,3 +16,4 @@ newrelic>=2.32,<2.33
 
 # Exceptions
 raven>=5.2
+psycopg2>=2.7.1
