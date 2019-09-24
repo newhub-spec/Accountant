@@ -36,9 +36,7 @@ deploy_production:
 migrate_production:
 	heroku run python manage.py migrate --remote heroku
 
-collectstatic_production:
-	./manage.py collectstatic --noinput
-	aws s3 sync --acl public-read accountant/static s3://accountantx/static/
+
 
 # shortcuts for deploy to the production
 dp: deploy_production
