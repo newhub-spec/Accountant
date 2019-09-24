@@ -8,10 +8,7 @@
   ],
   "repository": "https://github.com/dulacp/Accountant",
   "addons": [
-    "heroku-postgresql:hobby-dev",
-    "pgbackups:auto-week",
-    "mandrill:starter",
-    "newrelic:wayne"
+    "heroku-postgresql:hobby-dev"
   ],
   "env": {
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-python",
